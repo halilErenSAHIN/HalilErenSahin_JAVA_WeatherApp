@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ehir_lke"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCity"
+        android:layout_marginTop="8dp"
+        android:text="@string/temperature_25_c"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTemperature"
+        android:layout_marginTop="8dp"
+        android:text="@string/clear"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/imageViewWeatherIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textViewCondition"
+        android:layout_marginTop="8dp"
+
+        android:contentDescription="@string/weather_icon"/>
+
+    <TextView
+        android:id="@+id/textViewForecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewWeatherIcon"
+        android:layout_marginTop="16dp"
+        android:text="@string/_5_day_forecast"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutForecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewForecast"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

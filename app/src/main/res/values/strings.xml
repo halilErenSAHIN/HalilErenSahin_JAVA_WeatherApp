@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HalilErenSahin_BitirmeProjesi_WeatherApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ehir_lke">Şehir, Ülke</string>
+    <string name="weather_icon">Weather Icon</string>
+    <string name="clear">Clear</string>
+    <string name="_5_day_forecast">5-Day Forecast:</string>
+    <string name="temperature_25_c">Temperature: 25°C</string>
+</resources>
